@@ -1,19 +1,17 @@
-# React + Vite
+## 커밋 컨벤션
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+| 태그 이름 | 설명 |
+| :--- | :--- |
+| **Feat** | 새로운 기능을 추가할 경우 |
+| **Fix** | 버그를 고친 경우 |
+| **Style** | 코드 포맷 변경, 세미콜론 누락 등 코드 로직 수정이 없는 경우 |
+| **Refactor** | 프로덕션 코드 리팩토링 |
+| **Docs** | 문서를 수정한 경우 (README 등) |
+| **Chore** | 빌드 테스트 업데이트, 패키지 매니저 설정 등 (프로덕션 코드 변경 X) |
 
-Currently, two official plugins are available:
+---
+**커밋 메시지 예시:** `Feat: 로그인 기능 구현`  
+`Fix: 메인 페이지 이미지 로딩 오류 수정`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-# share-data-FE
+# share-data-FE 
 2-4 정보공유 서비스 프론트엔드 레포입니다
